@@ -1,0 +1,76 @@
+/** HEADER **/
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.navbar-brand a h1 { 
+    vertical-align: middle;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+}
+
+#nav-list :hover {
+    background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+
+@media (max-width: 767px) {
+        
+
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    background-color: gray;
+    color: black;
+    border-radius: 0;
+    border: 0;
+}
+
+#title {
+    padding-top: 5px;
+}
+
+#description {
+    padding: 5px 15px 15px;
+}
+
+#description span {
+    font-size: 1.1em;
+}
+
+
+
